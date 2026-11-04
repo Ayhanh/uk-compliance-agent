@@ -6,7 +6,7 @@
     ".wasp/out/sdk/wasp"
   ],
   "scripts": {
-    "build": "wasp build"
+    "build": "npx wasp build"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.523.0",
