@@ -1,0 +1,7 @@
+node_modules/
+.wasp/
+.env
+.env.*
+!.env.client.example
+!.env.server.example
+
