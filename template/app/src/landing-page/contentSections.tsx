@@ -1,4 +1,3 @@
-cat << 'EOF' > src/landing-page/contentSections.tsx
 import type { GridFeature } from "./components/FeaturesGrid";
 
 export const features: GridFeature[] = [
@@ -43,7 +42,7 @@ export const features: GridFeature[] = [
   {
     name: "Per-company billing",
     description:
-      "Each company has its own 14-day trial and subscription. Teammates can share one company.",
+      "Try the full Pro experience free for seven days per company, then choose a monthly plan.",
     emoji: "🏢",
     size: "medium",
     href: "#",
@@ -73,7 +72,7 @@ export const faqs = [
     id: 4,
     question: "What happens when my trial ends?",
     answer:
-      "Monitoring pauses until you subscribe. Your existing findings stay visible. Owners and admins can subscribe from the company page.",
+      "Your seven-day Pro trial is free. After it ends, monitoring pauses until a company owner or admin chooses a monthly plan. Existing findings stay visible.",
   },
   {
     id: 5,
@@ -99,4 +98,3 @@ export const footerNavigation = {
     { name: "Terms of Service", href: "#" },
   ],
 };
-EOF
